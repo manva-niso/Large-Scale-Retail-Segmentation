@@ -4,7 +4,8 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 
-DATA_DIR = "/home/claude/retail-segmentation/data"
+import os
+DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
 
 st.set_page_config(page_title="Fashion Retail Segmentation & LTV", layout="wide")
 
