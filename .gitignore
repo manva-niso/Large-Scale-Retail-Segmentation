@@ -1,0 +1,19 @@
+# Ignore the massive datasets and model outputs
+data/*.csv
+data/*.parquet
+data/*.json
+
+# Ignore compiled C++ binaries and build folders
+*.pyd
+*.so
+*.o
+build/
+retail_cpp.egg-info/
+
+# Ignore Python environments and caches
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore OS files
+.DS_Store
